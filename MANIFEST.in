@@ -1,6 +1,7 @@
 include *.txt
+include *.md
 
 # recursive-include docs *
-# recursive-include wheelcms *
+recursive-include wheelcms *
 
 global-exclude *.pyc
